@@ -10,7 +10,7 @@ The front end is built in Angular (currently supporting 1.3.x).  Therefore, the 
 
 ## Features
 ---
-** jopier ** (front end)
+**jopier** (front end)
   1. API providing toggling of editing mode on or off.
   2. Directive allowing any element's html to be content managed, in place.
   3. Pulls content from html markup when it doesn't exist.  This is a wonderful feature for existing sites - just add the directive and your content will be pulled from what you already have published in html.  Thereafter, it ignores pre-existing html content of a element with the jopier directive.
@@ -27,7 +27,7 @@ The front end is built in Angular (currently supporting 1.3.x).  Therefore, the 
   9. Multple elements can have the same content.  An edit to one results in an update to all.
   10. Content keys can be expressions, thus changing the content based on the key.
 
-** jopierREST ** (back end)
+**jopierREST** (back end)
   1. Ability to define hierarchical content keys.  Hierarchical content keys are stored hierarchically in jopierREST.
   2. MongoDB storage
   3. Ability to segregate content for different sites or endpoints
@@ -50,7 +50,7 @@ Skip any that you already have
              angular.module('someAppName', ['jopier']); 
 
 ### Usage
-** Server Side **
+**Server Side**
   1. Install jopierREST 
      * Install from npm 
            npm install jopierREST --save
@@ -64,7 +64,7 @@ Skip any that you already have
          app.use(jopier.getPath()).get(jopier.get);
          app.use(jopier.postPath()).post(jopier.post);
 
-** Front End **
+**Front End**
   1. Get jopier (bower is recommended - it points to the lastest stable tag)
          bower install jopier --save
          or
