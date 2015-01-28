@@ -5,10 +5,7 @@
 (function () {
     'use strict';
     var bunyan = require('bunyan');
-    var _ = require('lodash');
     var mongoskin = require('mongoskin');
-    var ObjectID = require('mongodb').ObjectID;
-    //var Promise = require('node-promise').Promise;
 
     /**
      *
