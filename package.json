@@ -1,6 +1,6 @@
 {
-  "name": "jopierREST",
-  "version": "0.0.1",
+  "name": "jopier-rest",
+  "version": "0.0.2",
   "description": "Jopier CMS Server",
   "main": "core/Jopier.js",
   "scripts": {
